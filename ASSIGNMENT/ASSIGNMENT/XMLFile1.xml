@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Advertisements>
   <Ad>
-    <ImageUrl>SKR.PNG</ImageUrl>
+    <ImageUrl>forget.jpg</ImageUrl>
     <NavigateUrl>https://example.com</NavigateUrl>
     <AlternateText>Ad 1</AlternateText>
     <Impressions>50</Impressions>
   </Ad>
   <Ad>
-    <ImageUrl>SKR.PNG</ImageUrl>
+    <ImageUrl>forget.jpg</ImageUrl>
     <NavigateUrl>https://example.com</NavigateUrl>
     <AlternateText>Ad 2</AlternateText>
     <Impressions>30</Impressions>
