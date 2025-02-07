@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "ADD";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header bg-success text-white text-uppercase">
+        <h4>Add Student</h4>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create" asp-controller="Student" method="post">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" name="Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="Branch" class="form-label">Branch</label>
+                <input type="text" class="form-control" id="Branch" name="Branch" required>
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" required>
+            </div>
+            <div class="mb-3">
+                <label for="Phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="Phone" name="Phone" required>
+            </div>
+            <button type="submit" class="btn btn-success">Add Student</button>
+        </form>
+    </div>
+</div>
